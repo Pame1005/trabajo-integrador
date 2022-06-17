@@ -431,14 +431,13 @@ footer p {
     .main-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        gap: 3rem;
         width: 100%;
     }
     .adv-container {
         width: 16rem;
-        height: 24rem;
+        height: 25rem;
         margin-bottom: 2rem;
     }
     .como-funciona h1 {
@@ -490,6 +489,7 @@ footer p {
         flex-wrap: wrap;
         gap: 2rem;
         max-width: 100%;
+        padding: 2rem;
     }
     .contacto {
         width: 100%;
